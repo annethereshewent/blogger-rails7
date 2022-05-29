@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the blogger app migrated over to rails 7. For the most part the code is intact other than using rails 7 and stripping out a lot of the non-api code out. 
 
-Things you may want to cover:
+To use this application, you will need a postgres database set up with a postgres user. Then, to get the application running, do:
 
-* Ruby version
+- bundle install
+- rails server
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
